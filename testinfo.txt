@@ -1,0 +1,11 @@
+###################
+#### Test info ####
+###################
+
+Test 1: input data containing a single source station
+Test 2: input data containing a single source station with long name ("Coffs Harbour")
+Test 3: input data containing many source stations
+Test 4: given no suitable trains, output the correct message
+Test 5: given an extra colon, handle data and output the correct message
+Test 6: given wrong time format, handle data (return -1 in strToTime) and output the correct message
+Test 7: when missing arguments, remind user to provide the required arguments before exiting
